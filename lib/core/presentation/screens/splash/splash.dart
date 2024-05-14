@@ -40,7 +40,7 @@ class SplashScreen extends StatelessWidget {
           Container(
             margin: EdgeInsets.only(),
             child: Text(
-              'Новые релизы',
+              'New releases',
               style: TextStyle(
                 fontSize: 28,
                 color: Colors.black,
