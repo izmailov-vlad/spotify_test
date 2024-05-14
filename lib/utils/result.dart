@@ -34,7 +34,7 @@ class Result<V> {
   /// Return [value] only if it exists or throws [NullThrownError] on `null` or [Failure] on failure.
   V? get valueOrThrow {
     if (isFailure) throw _failure!;
-    if (_value == null) throw NullThrownError();
+    if (_value == null) throw Exception();
     return _value;
   }
 
