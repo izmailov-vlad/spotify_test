@@ -1,3 +1,9 @@
+## 0.0.4 (2024-05-14)
+
+### Refactor
+
+- **pubspec**: change pubspec
+
 ## 0.0.3 (2024-05-14)
 
 ### Refactor
