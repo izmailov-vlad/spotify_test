@@ -1,4 +1,3 @@
-import 'dart:developer';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:injectable/injectable.dart';
@@ -10,7 +9,6 @@ import 'package:sporify/core/domain/usecases/remove_from_favourite.dart';
 import 'package:sporify/core/presentation/router/bloc/bloc.dart';
 import 'package:sporify/core/presentation/router/bloc/event.dart';
 import 'package:sporify/core/presentation/screens/album/bloc/state.dart';
-import 'package:sporify/core/presentation/screens/splash/bloc/state.dart';
 
 import 'event.dart';
 
@@ -24,7 +22,7 @@ class AlbumBloc extends Bloc<AlbumEvent, AlbumState> {
 
   List<Track> tracks = [];
   Set<String> _favourites = {};
-  String albumName = 'Альбом';
+  String albumName = 'Album';
 
   String id;
   AlbumBloc(
