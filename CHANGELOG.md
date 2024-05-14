@@ -1,3 +1,10 @@
+## 0.0.3 (2024-05-14)
+
+### Refactor
+
+- **album_bloc**: delete unused imports in album/bloc.dart file
+- **splash**: Change title
+
 ## 0.0.2 (2024-05-14)
 
 ### Fix
