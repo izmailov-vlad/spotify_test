@@ -45,7 +45,7 @@ class Interceptor {
 
     final newReleases = await spotifyClient.getNewReleases();
 
-    log('NewReleases: ' + newReleases.toString());
+    log('New Releases: ' + newReleases.toString());
 
     getIt.registerLazySingleton<SpotifyClient>(
       () => spotifyClient,
