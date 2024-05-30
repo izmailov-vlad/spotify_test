@@ -56,3 +56,19 @@ class Interceptor {
     );
   }
 }
+
+/// '%{change_type}'('%{source_branch}'): '%{title}'
+//
+// %{description}
+//
+// %{issues}
+//
+// See merge request %{reference}
+
+///Merge branch '%{source_branch}' into '%{target_branch}'
+//
+// %{title}
+//
+// %{issues}
+//
+// See merge request %{reference}
