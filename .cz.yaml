@@ -23,7 +23,7 @@ commitizen:
     - ''
   - - disabled
     - fg:#858585 italic
-  tag_format: $version
+  tag_format: v$major.$minor.$patch$prerelease
   update_changelog_on_bump: true
   version: 0.0.8
   version_scheme: semver
