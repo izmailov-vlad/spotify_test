@@ -14,6 +14,14 @@
 - **changelog**: add changelog folder with versions
 - **PYGMA-2090**: Обновил строку
 
+## v1.0.0+1 (2024-06-07)
+
+### Refactor
+
+- **cz**: change cz
+- **changelog**: add changelog folder with versions
+- **PYGMA-2090**: Обновил строку
+
 ## 0.0.4 (2024-05-14)
 
 ### Refactor

@@ -25,5 +25,5 @@ commitizen:
     - fg:#858585 italic
   tag_format: $version
   update_changelog_on_bump: true
-  version: 0.0.7
+  version: 0.0.8
   version_scheme: semver
