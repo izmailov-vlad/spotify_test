@@ -1,7 +1,8 @@
-## stage_release-v1.0.0+13 (2024-05-30)
+## v... (2024-06-07)
 
 ### Refactor
 
+- **cz**: change cz
 - **changelog**: add changelog folder with versions
 - **PYGMA-2090**: Обновил строку
 
